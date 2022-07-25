@@ -14,13 +14,13 @@ let current_scroll = 0;
 
 <svelte:window bind:scrollY="{current_scroll}" />
 
-<main>
-  <div class="container mx-auto min-h-screen">
+<main class="bg-base-300">
+  <div class="container mx-auto  min-h-screen">
     <!-- Nav thingy -->
   <Topbar is_transparent={current_scroll > 64} currency="{currency}" />
   <Spacer height={64}/>
   <!-- This is the HERO -->
-  <Header />
+  <Header /> 
   <!-- 3 listings for the gaming laptop in the content thing -->
   <Spacer height={16} _id="gaming"/>
   <Listing listing="{gaming[0]}" currency="{currency}" />
@@ -35,6 +35,7 @@ let current_scroll = 0;
 
 
   <!-- Enquiry form -->
+  <Spacer height={16} _id="enquiry"/>
   <Enquiry />
   <!-- This is the footer -->
   <Footer />

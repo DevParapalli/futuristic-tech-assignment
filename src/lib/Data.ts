@@ -5,6 +5,10 @@ import work1 from 'src/assets/work1.jpg';
 import work2 from 'src/assets/work2.jpg';
 import work3 from 'src/assets/work3.jpg';
 
+import banner1 from 'src/assets/banner1.jpg';
+import banner2 from 'src/assets/banner2.jpg';
+import banner3 from 'src/assets/banner3.jpg';
+
 export const gaming = [
   {
     price: 1200.0,
@@ -70,3 +74,25 @@ export const work = [
     image: work3,
   },
 ];
+
+
+export const banners = [
+  {
+    id: 0,
+    name: "banner 1",
+    imgurl: banner1,
+    attribution: "eluktronics.com"
+  },
+  {
+    id: 1,
+    name: "banner 2",
+    imgurl: banner2,
+    attribution: "eluktronics.com"
+  },
+  {
+    id: 2,
+    name: "banner 3",
+    imgurl: banner3,
+    attribution: "eluktronics.com"
+  }
+]

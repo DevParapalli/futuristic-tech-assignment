@@ -543,17 +543,17 @@ fill-range@^7.0.1:
   dependencies:
     to-regex-range "^5.0.1"
 
-flowbite-svelte@^0.22.10:
-  version "0.22.10"
-  resolved "https://registry.yarnpkg.com/flowbite-svelte/-/flowbite-svelte-0.22.10.tgz#4cfb2dfb06f3d80f8b75226e7e6bdeb6277d853e"
-  integrity sha512-7CZrrv1WlN1lx7JzeJq0H/haWoZMXlOIDH612VI7cBcj4SznJYNuZkBWvCgJ8xnxR12HvJpqQUkE3winyi75Zw==
+flowbite-svelte@^0.22.13:
+  version "0.22.13"
+  resolved "https://registry.yarnpkg.com/flowbite-svelte/-/flowbite-svelte-0.22.13.tgz#41bdec5b515a9cab7061c6cbb3761b1c7316b003"
+  integrity sha512-qLJhP766RGq1xoYqGcswD37yD6ExwWXJxbZ2Dsjy2QMgocGzvPzCbhX2miYl+EVnkJ4qFY1K5zbowHBozKouEQ==
   dependencies:
     "@floating-ui/dom" "^0.5.3"
     classnames "^2.3.1"
     flowbite "^1.4.2"
     svelte-heros "^2.2.2"
 
-flowbite@^1.4.2:
+flowbite@^1.4.2, flowbite@^1.5.1:
   version "1.5.1"
   resolved "https://registry.yarnpkg.com/flowbite/-/flowbite-1.5.1.tgz#f62d0e570973960d67fee8d78580dc45b9217a2f"
   integrity sha512-kMQ2o/aLV629WqUVubw2KZGYcN7W5rD0tFVqxvK5/45EFIgMAlTmT+XxdIjKwzyTlb3HgmUj5h5NaqN3TJc9Zw==

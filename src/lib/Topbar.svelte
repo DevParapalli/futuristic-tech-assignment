@@ -28,12 +28,14 @@ import { writable } from "svelte/store";
   class="navbar 
   fixed top-0 left-0
   z-10
-  bg-base-100 {is_transparent ? 'bg-opacity-50' : 'bg-opacity-100'}"
+  bg-base-100 
+  transition-all duration-1000
+  {is_transparent ? 'bg-opacity-0' : 'bg-opacity-100'}"
 >
   <div class="flex-1">
     <a class="btn btn-ghost normal-case text-xl">
       <span
-        class="bg-gradient-to-br from-teal-600 to-purple-500 bg-clip-text text-transparent"
+        class="bg-gradient-to-br from-teal-600 to-purple-500 bg-clip-text text-transparent transition-all duration-1000 {is_transparent ? 'opacity-0' : ''}"
         >Future Tech</span
       >
     </a>
