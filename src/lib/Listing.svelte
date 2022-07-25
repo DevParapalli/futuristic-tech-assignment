@@ -21,8 +21,8 @@
   }
 </script>
 
-<div class="card lg:card-side  bg-base-100 shadow-xl mt-4 lg:max-h-[unset]">
-  <figure class=""><img src={listing.image} class="lg:max-h-[40vh]" alt="Album" /></figure>
+<div class="card lg:card-side  bg-base-200 shadow-xl mt-4 lg:max-h-[unset]">
+  <figure class=""><img src={listing.image} class="lg:max-h-[42vh] max-h-[55vh]" alt="Album" /></figure>
   <div class="card-body">
     <h2 class="card-title">{listing.name}</h2>
     <p>{listing.description}</p>

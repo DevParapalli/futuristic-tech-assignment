@@ -23,7 +23,7 @@ export const gaming = [
   {
     price: 2400.0,
     name: "Gaming PC Spec 2",
-    description: "This is a gaming PC",
+    description: "Always ready for action, the Gaming PC Spec 2 excels at gaming, streaming, and everything in between. AMD Ryzen 7 Series CPU to fly through multitasking and more. Gameplay graphics are smooth with the latest GeForce GTX 16-Series GPU which reliably delivers high frame rates for a ton of modern games. A superfast NVMe PCIe SSD speeds up load times, while an open SSD slot makes it easy to add terabytes more space for all your games.",
     cpu: "AMD Ryzen 7 5800X",
     gpu: "NVIDIA GeForce RTX 3070 Ti",
     ram: "24GB",
@@ -33,7 +33,7 @@ export const gaming = [
   {
     price: 3600.0,
     name: "Gaming PC Spec 3",
-    description: "This is a gaming PC",
+    description: "Always ready for action, the Gaming PC Spec 3 excels at gaming, streaming, and everything in between. An AMD Ryzen 9 Series CPU to fly through multitasking and more. Gameplay graphics are smooth with the latest GeForce GTX 16-Series GPU which reliably delivers high frame rates for a ton of modern games. A superfast NVMe PCIe SSD speeds up load times, while an open SSD slot makes it easy to add terabytes more space for all your games.",
     cpu: "AMD Ryzen 9 5900X",
     gpu: "NVIDIA GeForce RTX 3090 Ti",
     ram: "32GB",
@@ -46,7 +46,7 @@ export const work = [
   {
     price: 400.0,
     name: "Work PC Spec 1",
-    description: "This is a gaming PC",
+    description: "The Work PC Spec 1, Future Tech’s most mobile workstation, strikes the balance between power and mobility, all at a comfortable price point. Perfect for highly mobile power users, the Work PC Spec 1 packs the power of AMD Ryzen PRO processors with professional-level integrated Radeon graphics, all in a compact 14-inch chassis.",
     cpu: "AMD Ryzen 3 3250U",
     gpu: "Integrated Graphics",
     ram: "4GB",
@@ -56,7 +56,7 @@ export const work = [
   {
     price: 800.0,
     name: "Work PC Spec 2",
-    description: "This is a gaming PC",
+    description: "The Work PC Spec 2, Future Tech’s most mobile workstation, strikes the balance between power and mobility, all at a comfortable price point. Perfect for highly mobile power users, the Work PC Spec 1 packs the power of AMD Ryzen PRO processors with professional-level integrated Radeon graphics, all in a compact 14-inch chassis.",
     cpu: "AMD Ryzen 5 3500U",
     gpu: "Integrated Graphics",
     ram: "8GB",
@@ -66,7 +66,7 @@ export const work = [
   {
     price: 1200.0,
     name: "Work PC Spec 3",
-    description: "This is a gaming PC",
+    description: "The Work PC Spec 3, Future Tech’s most mobile workstation, strikes the balance between power and mobility, all at a comfortable price point. Perfect for highly mobile power users, the Work PC Spec 1 packs the power of AMD Ryzen PRO processors with professional-level NVIDIA graphics, all in a compact 15-inch chassis.",
     cpu: "AMD Ryzen 7 5800X",
     gpu: "NVIDIA GeForce GTX 1660 Ti",
     ram: "16GB",

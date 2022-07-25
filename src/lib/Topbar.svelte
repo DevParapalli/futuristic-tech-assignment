@@ -33,14 +33,14 @@ import { writable } from "svelte/store";
   {is_transparent ? 'bg-opacity-0' : 'bg-opacity-100'}"
 >
   <div class="flex-1">
-    <a class="btn btn-ghost normal-case text-xl">
+    <a href="/" class="btn btn-ghost normal-case text-xl">
       <span
-        class="bg-gradient-to-br from-teal-600 to-purple-500 bg-clip-text text-transparent transition-all duration-1000 {is_transparent ? 'opacity-0' : ''}"
+        class="md:visible invisible bg-gradient-to-br from-teal-600 to-purple-500 bg-clip-text text-transparent transition-all duration-1000 {is_transparent ? 'opacity-0' : ''}"
         >Future Tech</span
       >
     </a>
   </div>
-  <div class="flex-none">
+  <div class="flex-none transition-all duration-1000 {is_transparent ? 'bg-info text-gray-800':'bg-base-100'} rounded-xl">
     <ul class="menu menu-horizontal p-0">
       <li on:click={currency_on_click}>
         <span class="currency-display">{$currency}</span>
@@ -59,14 +59,14 @@ import { writable } from "svelte/store";
             /></svg
           >
         </span>
-        <ul class="p-2 bg-base-100">
+        <ul class="p-2 transition-all duration-1000 {is_transparent ? 'bg-info text-gray-800':'bg-base-100'}">
           <li><a href="#gaming" on:click|preventDefault="{scrollIntoView}">Laptops for Game</a></li>
           <li><a href="#work" on:click|preventDefault="{scrollIntoView}">Laptops for Work</a></li>
         </ul>
       </li>
       <li><a href="#enquiry" on:click|preventDefault="{scrollIntoView}">Contact Us</a></li>
       <li class="indicator">
-        <span class="indicator-item badge badge-info badge-sm">1</span>
+        <span class="indicator-item text-white badge badge-sm">1</span>
         <!-- svelte-ignore a11y-invalid-attribute -->
         <a class="indicator-bottom" href="javascript:alert('Not Implimented')"
           >

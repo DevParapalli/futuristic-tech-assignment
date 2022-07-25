@@ -5,6 +5,7 @@ import Listing from "./lib/Listing.svelte";
 import Enquiry from "./lib/Enquiry.svelte";
 import Footer from "./lib/Footer.svelte";
 import Spacer from "./lib/Spacer.svelte"
+import BackToTop from "./lib/BackToTop.svelte";
 import {gaming, work} from "./lib/Data.js"
 import { writable } from "svelte/store";
 let currency = writable("USD");
@@ -18,7 +19,7 @@ let current_scroll = 0;
   <div class="container mx-auto  min-h-screen">
     <!-- Nav thingy -->
   <Topbar is_transparent={current_scroll > 64} currency="{currency}" />
-  <Spacer height={64}/>
+  <Spacer height={64} _id="top"/>
   <!-- This is the HERO -->
   <Header /> 
   <!-- 3 listings for the gaming laptop in the content thing -->
@@ -37,8 +38,10 @@ let current_scroll = 0;
   <!-- Enquiry form -->
   <Spacer height={16} _id="enquiry"/>
   <Enquiry />
-  <!-- This is the footer -->
+  <!-- This is the footer (Not Used/Empty) -->
   <Footer />
+  <!-- This element is responsible for the back to top button -->
+  <BackToTop />
   </div>
 </main>
 
