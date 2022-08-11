@@ -29,18 +29,18 @@ import { writable } from "svelte/store";
   fixed top-0 left-0
   z-10
   bg-base-100 
-  transition-all duration-1000
+  transition-all duration-200
   {is_transparent ? 'bg-opacity-0' : 'bg-opacity-100'}"
 >
   <div class="flex-1">
     <a href="/" class="btn btn-ghost normal-case text-xl">
       <span
-        class="md:visible invisible bg-gradient-to-br from-teal-600 to-purple-500 bg-clip-text text-transparent transition-all duration-1000 {is_transparent ? 'opacity-0' : ''}"
+        class="md:visible invisible bg-gradient-to-br from-teal-600 to-purple-500 bg-clip-text text-transparent transition-all duration-200 {is_transparent ? 'opacity-0' : ''}"
         >Future Tech</span
       >
     </a>
   </div>
-  <div class="flex-none transition-all duration-1000 {is_transparent ? 'bg-info text-gray-800':'bg-base-100'} rounded-xl">
+  <div class="flex-none transition-all duration-200 {is_transparent ? 'bg-info text-gray-800':'bg-base-100'} rounded-xl">
     <ul class="menu menu-horizontal p-0">
       <li on:click={currency_on_click}>
         <span class="currency-display">{$currency}</span>
@@ -59,7 +59,7 @@ import { writable } from "svelte/store";
             /></svg
           >
         </span>
-        <ul class="p-2 transition-all duration-1000 {is_transparent ? 'bg-info text-gray-800':'bg-base-100'}">
+        <ul class="p-2 transition-all duration-200 {is_transparent ? 'bg-info text-gray-800':'bg-base-100'}">
           <li><a href="#gaming" on:click|preventDefault="{scrollIntoView}">Laptops for Game</a></li>
           <li><a href="#work" on:click|preventDefault="{scrollIntoView}">Laptops for Work</a></li>
         </ul>
